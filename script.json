@@ -1,0 +1,7 @@
+// עדכון תוכן יומי
+document.getElementById("daily-question").href = "#";
+document.getElementById("daily-question").textContent = "מה הדבר הכי מצחיק שקרה לך השבוע?";
+
+document.getElementById("daily-video").href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+
+document.getElementById("daily-quote").href = "https://www.goodreads.com/quotes/tag/inspiration";

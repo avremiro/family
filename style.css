@@ -1,0 +1,128 @@
+/* עיצוב כללי */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* עיצוב הכותרת */
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* עיצוב רשת הקוביות */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.grid-item {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.grid-item h2 {
+    margin: 10px 0;
+    color: #4caf50;
+}
+
+.grid-item p {
+    color: #666;
+}
+
+.grid-item a, .grid-item button {
+    text-decoration: none;
+    color: inherit;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+/* עיצוב התחתית */
+footer {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.family-messages {
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #4caf50;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    animation: fade 10s infinite;
+}
+
+@keyframes fade {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+/* הודעות משפחתיות */
+.family-messages {
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #4caf50;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    animation: fade 10s infinite;
+}
+
+.family-messages img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+@keyframes fade {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+/* עיצוב התמונה המשפחתית */
+.family-photo {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px; /* רוחב מקסימלי */
+    border-radius: 50%; /* תמונה עגולה */
+    margin-bottom: 20px;
+}
+
+/* שאר עיצובי העמוד */
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
